@@ -1,0 +1,30 @@
+> Intro
+
+> Audience Usage
+
+> What is?
+- Many views : KV, DS database, non-blocking event bus
+
+- My pitch
+-- a way to share mem
+-- persist in data structure
+-- data access layer that makes your life easy 
+
+> Features?
+- keys, values
+- datastructures - analogies
+- operations
+- other features : pubsub / scripting?
+- in memory : performant : complement not replace
+- persist to disk
+- maintained by antirez
+
+> Installation
+- redis
+- npm redis
+
+> Examples
+- basic
+- server
+
+> Applause and Adoration
