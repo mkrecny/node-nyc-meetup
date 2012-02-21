@@ -1,6 +1,7 @@
 var client = require('redis').createClient();
 
 var cb = function(){
+
   client.set('foo', 'bar', function(e, res){
     client.get('foo', function(e, res){
       console.log('val of foo is', res);
